@@ -1,5 +1,5 @@
 package com.company.behavioral.memento.structure;
 
-class Caretaker { // todo finish
+class Caretaker {
     private Originator.Memento memento;
 }

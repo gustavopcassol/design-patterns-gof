@@ -1,6 +1,6 @@
 package com.company.behavioral.memento.structure;
 
-class Originator { // todo finish
+class Originator {
     private int state;
 
     void setMemento(Memento memento) {
