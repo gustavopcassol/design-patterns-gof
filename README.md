@@ -1,6 +1,6 @@
 # design-patterns-gof
 
-###### This project aims to implement very minimalistic examples of each pattern in the book _Design Patterns: Elements of Reusable Object-Oriented Software (1994)_.
+##### This project aims to implement very minimalistic examples of each pattern in the book _Design Patterns: Elements of Reusable Object-Oriented Software (1994)_.
 
 Code in "structure" packages are based on the "Structure" and "Participants" parts of each design pattern chapter.
 
