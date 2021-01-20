@@ -1,4 +1,4 @@
-# design-patterns-gof
+# Design Patterns GoF
 
 #### This project aims to implement very minimalistic examples of each pattern in the book _Design Patterns: Elements of Reusable Object-Oriented Software (1994)_.
 
