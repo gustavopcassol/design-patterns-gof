@@ -1,8 +1,12 @@
 # design-patterns-gof
 
-Code in "structure" packages are created based on the "Structure" and "Participants" parts of the book.
+###### This project aims to implement very minimalistic examples of each pattern in the book _Design Patterns: Elements of Reusable Object-Oriented Software (1994)_.
 
-Liberties taken on "structure" packages:
+Code in "structure" packages are based on the "Structure" and "Participants" parts of each design pattern chapter.
+
+Code in "implementation" packages are based on the whole design pattern chapter.
+
+Some liberties were taken on "structure" packages:
 
 - Classes with undefined visibility are "package-private";
 - Fields with undefined visibility are "private";

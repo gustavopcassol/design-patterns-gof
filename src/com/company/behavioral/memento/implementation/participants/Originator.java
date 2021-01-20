@@ -1,7 +1,23 @@
 package com.company.behavioral.memento.implementation.participants;
 
-class Originator {
+public class Originator {
     private int state;
+
+    public Originator(int state) {
+        this.state = state;
+    }
+
+    int getState() {
+        return state;
+    }
+
+    void setState(int state) {
+        this.state = state;
+    }
+
+    void operation() {
+        System.out.println(state);
+    }
 
     void setMemento(Memento memento) {
         state = memento.getState();
