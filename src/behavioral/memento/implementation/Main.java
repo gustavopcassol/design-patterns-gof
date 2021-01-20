@@ -1,7 +1,7 @@
-package com.company.behavioral.memento.implementation;
+package behavioral.memento.implementation;
 
-import com.company.behavioral.memento.implementation.participants.Caretaker;
-import com.company.behavioral.memento.implementation.participants.Originator;
+import behavioral.memento.implementation.participants.Caretaker;
+import behavioral.memento.implementation.participants.Originator;
 
 class Main {
     public static void main(String[] args) {

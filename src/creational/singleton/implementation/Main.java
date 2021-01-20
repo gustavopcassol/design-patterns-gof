@@ -1,6 +1,6 @@
-package com.company.creational.singleton.implementation;
+package creational.singleton.implementation;
 
-import com.company.creational.singleton.implementation.participants.Singleton;
+import creational.singleton.implementation.participants.Singleton;
 
 class Main {
     public static void main(String[] args) {

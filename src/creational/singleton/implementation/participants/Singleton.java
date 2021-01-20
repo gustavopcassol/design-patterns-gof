@@ -1,4 +1,4 @@
-package com.company.creational.singleton.implementation.participants;
+package creational.singleton.implementation.participants;
 
 public final class Singleton {
     private static Singleton uniqueInstance;

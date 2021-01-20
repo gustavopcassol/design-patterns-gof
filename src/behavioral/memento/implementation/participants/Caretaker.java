@@ -1,4 +1,4 @@
-package com.company.behavioral.memento.implementation.participants;
+package behavioral.memento.implementation.participants;
 
 public class Caretaker {
     private Originator.Memento memento;

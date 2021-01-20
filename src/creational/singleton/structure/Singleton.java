@@ -1,4 +1,4 @@
-package com.company.creational.singleton.structure;
+package creational.singleton.structure;
 
 class Singleton {
     private static Singleton uniqueInstance;

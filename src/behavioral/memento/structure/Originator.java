@@ -1,4 +1,4 @@
-package com.company.behavioral.memento.structure;
+package behavioral.memento.structure;
 
 class Originator {
     private int state;
