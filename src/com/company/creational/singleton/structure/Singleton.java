@@ -11,6 +11,7 @@ class Singleton {
     void singletonOperation() {
     }
 
-    void getSingletonData() {
+    int getSingletonData() {
+        return singletonData;
     }
 }

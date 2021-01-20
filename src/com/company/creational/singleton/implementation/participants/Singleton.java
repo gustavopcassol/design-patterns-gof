@@ -1,6 +1,6 @@
 package com.company.creational.singleton.implementation.participants;
 
-public class Singleton {
+public final class Singleton {
     private static Singleton uniqueInstance;
     private int singletonData;
 
