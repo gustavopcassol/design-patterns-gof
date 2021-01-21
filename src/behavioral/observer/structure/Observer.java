@@ -1,4 +1,5 @@
 package behavioral.observer.structure;
 
-class Observer {
+interface Observer {
+    void update();
 }
