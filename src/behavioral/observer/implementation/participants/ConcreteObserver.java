@@ -6,11 +6,21 @@ public class ConcreteObserver implements Observer {
 
     public ConcreteObserver(ConcreteSubject subject) {
         this.subject = subject;
-        subject.attach(this);
+        this.subject.attach(this);
+    }
+
+    // In some languages this method should be a destructor.
+    public void detach() {
+        subject.detach(this);
+        subject = null;
     }
 
     @Override
     public void update() {
         observerState = subject.getState();
+    }
+
+    public int getState() {
+        return observerState;
     }
 }
