@@ -1,4 +1,4 @@
-package behavioral.observer.structure;
+package behavioral.observer.implementation.participants;
 
 import java.util.ArrayList;
 import java.util.Collection;
