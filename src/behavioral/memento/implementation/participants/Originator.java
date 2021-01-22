@@ -3,10 +3,6 @@ package behavioral.memento.implementation.participants;
 public class Originator {
     private int state;
 
-    public Originator(int state) {
-        this.state = state;
-    }
-
     int getState() {
         return state;
     }
