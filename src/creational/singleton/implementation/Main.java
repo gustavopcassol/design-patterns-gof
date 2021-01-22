@@ -7,5 +7,7 @@ class Main {
         Singleton singleton = Singleton.instance();
         singleton.singletonOperation(1);
         System.out.println(singleton.getSingletonData());
+        Singleton otherSingleton = Singleton.instance();
+        System.out.println(otherSingleton.getSingletonData());
     }
 }
