@@ -1,11 +1,12 @@
 package behavioral.observer.implementation.participants;
 
-class ConcreteObserver implements Observer {
+public class ConcreteObserver implements Observer {
     private ConcreteSubject subject;
     private int observerState;
 
-    ConcreteObserver(ConcreteSubject subject) {
+    public ConcreteObserver(ConcreteSubject subject) {
         this.subject = subject;
+        subject.attach(this);
     }
 
     @Override

@@ -1,6 +1,6 @@
 package behavioral.observer.implementation.participants;
 
-class ConcreteSubject extends Subject {
+public class ConcreteSubject extends Subject {
     private int subjectState;
 
     int getState() {
