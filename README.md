@@ -15,5 +15,5 @@ Some liberties were taken on "structure" packages:
 - Fields with undefined type are "int";
 - Methods with undefined visibility are "package-private";
 - Methods with undefined type are "void";
-- Getters and setters are implemented; and
+- Getters and setters that are shown in the diagram are implemented; and
 - Other small changes were made based on linters recommendations.

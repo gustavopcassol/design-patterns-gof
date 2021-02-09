@@ -12,7 +12,7 @@ abstract class Subject {
     void detach(Observer observer) {
     }
 
-    // The method name was changed from "notify" because "Object" has one with the same name.
+    // The method name was originally "notify", but was changed because "Object" has a method with that same name.
     void notifyObservers() {
         for (Observer observer : observers) {
             observer.update();
