@@ -1,5 +1,5 @@
 package structural.adapter.implementation.participants;
 
-interface Target {
-    void request();
+public interface Target {
+    String request();
 }

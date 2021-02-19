@@ -1,6 +1,7 @@
 package structural.adapter.implementation.participants;
 
-class Adaptee {
-    void specificRequest() {
+public class Adaptee {
+    String specificRequest() {
+        return "test";
     }
 }
