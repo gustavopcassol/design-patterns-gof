@@ -1,8 +1,15 @@
 package structural.adapter.classadapter.implementation.participants;
 
-class Adapter extends Adaptee implements Target {
+import java.util.ArrayList;
+
+public class Adapter extends Adaptee implements Target {
     @Override
-    public void request() {
-        specificRequest();
+    public ArrayList<Character> request() {
+        String text = specificRequest();
+        ArrayList<Character> characters = new ArrayList<>();
+        for (char character : text.toCharArray()) {
+            characters.add(character);
+        }
+        return characters;
     }
 }
