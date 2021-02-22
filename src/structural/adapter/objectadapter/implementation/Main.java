@@ -4,7 +4,6 @@ import structural.adapter.objectadapter.implementation.participants.Adaptee;
 import structural.adapter.objectadapter.implementation.participants.Adapter;
 import structural.adapter.objectadapter.implementation.participants.Target;
 
-// todo check correctness
 class Main {
     public static void main(String[] args) {
         Adaptee adaptee = new Adaptee();
