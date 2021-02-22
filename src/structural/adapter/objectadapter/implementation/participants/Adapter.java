@@ -1,4 +1,4 @@
-package structural.adapter.implementation.participants;
+package structural.adapter.objectadapter.implementation.participants;
 
 import java.util.ArrayList;
 

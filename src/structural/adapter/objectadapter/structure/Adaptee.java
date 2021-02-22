@@ -1,4 +1,4 @@
-package structural.adapter.structure;
+package structural.adapter.objectadapter.structure;
 
 class Adaptee {
     void specificRequest() {

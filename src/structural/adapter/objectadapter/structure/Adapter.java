@@ -1,4 +1,4 @@
-package structural.adapter.structure;
+package structural.adapter.objectadapter.structure;
 
 class Adapter implements Target {
     private Adaptee adaptee;
