@@ -1,6 +1,6 @@
 package structural.adapter.implementation.participants;
 
-import java.util.Locale;
+import java.util.ArrayList;
 
 public class Adapter implements Target {
     private final Adaptee adaptee;
@@ -10,8 +10,12 @@ public class Adapter implements Target {
     }
 
     @Override
-    public String request() {
+    public ArrayList<Character> request() {
         String text = adaptee.specificRequest();
-        return text.toUpperCase(Locale.ENGLISH);
+        ArrayList<Character> characters = new ArrayList<>();
+        for (char character : text.toCharArray()) {
+            characters.add(character);
+        }
+        return characters;
     }
 }
