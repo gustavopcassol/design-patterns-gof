@@ -6,7 +6,7 @@ abstract class AbstractClass {
         primitiveOperation2();
     }
 
-    protected abstract void primitiveOperation1();
+    abstract void primitiveOperation1();
 
-    protected abstract void primitiveOperation2();
+    abstract void primitiveOperation2();
 }
