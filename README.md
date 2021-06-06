@@ -15,7 +15,7 @@ Some liberties were taken on "structure" packages:
 - Fields with undefined type are "int";
 - Methods with undefined visibility are "package-private";
 - Methods with undefined type are "void";
-- The "Client" classes that are shown in the diagram are not implemented;
-- Getters and setters that are shown in the diagram are implemented;
+- The "Client" classes that are shown in the diagrams are not implemented;
+- Getters and setters that are shown in the diagrams are implemented;
 - Abstract classes were implemented as interfaces when described as so; and
 - Other small changes were made based on linters recommendations.
