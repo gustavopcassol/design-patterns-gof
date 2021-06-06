@@ -14,7 +14,7 @@ abstract class Subject {
         observers.remove(observer);
     }
 
-    // The method name was changed from "notify" because "Object" has one with the same name.
+    // The method was renamed from "notify" because Object class has one with that name.
     void notifyObservers() {
         for (Observer observer : observers) {
             observer.update();
