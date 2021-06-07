@@ -9,7 +9,7 @@ public class ConcreteObserver implements Observer {
         this.subject.attach(this);
     }
 
-    // In some languages this method should be a destructor.
+    // This method should be a destructor in some languages.
     public void detach() {
         subject.detach(this);
         subject = null;
