@@ -1,6 +1,6 @@
 package behavioral.templatemethod.implementation.participants;
 
-abstract class AbstractClass {
+public abstract class AbstractClass {
     public final void templateMethod() {
         primitiveOperation1();
         primitiveOperation2();
